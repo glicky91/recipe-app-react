@@ -1,0 +1,27 @@
+QUESTIONS/UNRESOLVED:   
+- I can't figure out how to get my editReicpe to work.
+I'm confused on how to make the action button a seperate pages
+I didn't organize my files well, can we talk through that?
+do we need to import react?
+
+TODO:
+-Add form validation to edit recipe and add recipe 
+- search? Could be cool to search by catagory but I'm pretty lost on where to start
+- could also work with animation more
+
+
+ANSWERS/SOLVED:
+2. For some reason my nav bar won't link to the other pages... need to spend 
+    more time going over that section 
+    A: fixed this turns out i was importing NavLink from reactstrap vs from react-router-dom
+3. I looked at a video and realized that the delete button needs to be in teh same function as your state and map...
+2. How do I use map for a second time inside an array? liek I want ingredients to be in bullet points lets say. 
+1. How do I add font awesome logos? I tried and got a ton of erros around licensing etc..
+     would love for you to walk me through 
+3. I'm guessing form section will be what I need to create teh add recipe button. 
+8. Can we take a step back a little... when i'm gogoling to help with formatting do i google react bootstrap? css adn tehn use classes??   
+    look at bootstrap first then look at reactstrap 
+8. Can we take a step back a little... when i'm gogoling to help with formatting do i google react bootstrap? css adn tehn use classes??   
+    look at bootstrap first then look at reactstrap 
+
+

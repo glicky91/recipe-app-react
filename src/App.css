@@ -1,4 +1,7 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500&display=swap');
+
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +39,11 @@
   100% {
     transform: translateY(0px);
   }
-}
+} */
+
+
+ .headerq {
+  font-family: 'Tillana', cursive;
+ }
+
+ 
