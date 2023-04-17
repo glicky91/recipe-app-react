@@ -27,7 +27,7 @@ export default function RecipeList() {
                                 <ul>
 
                                     {recipe.ingredients.map((ingredient, idx) => (
-                                        <p key={idx}> {ingredient}</p>
+                                        <li key={idx}>{ingredient}</li>
                                     ))}
                                     {console.log('this is recipe.ingrs ' + recipe.ingredients)}
                                 </ul>
