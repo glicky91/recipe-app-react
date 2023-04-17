@@ -33,8 +33,8 @@ export default function AddRecipePage() {
                 initialValues={{
                     title: '',
                     catagory: '',
-                    ingredients: [],
-                    actions: []
+                    ingredients: '',
+                    actions: ''
                 }}
                 onSubmit={handleSubmit}
             >

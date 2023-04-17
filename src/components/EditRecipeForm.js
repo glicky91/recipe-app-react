@@ -16,8 +16,8 @@ const EditRecipeForm = ({ recipe }) => {
             id: recipe.id,
             title: values.title,
             catagory: values.catagory,
-            ingredients: values.ingredients,
-            actions: values.actions,
+            ingredients: values.ingredients.split(","),
+            actions: values.actions.split(", "),
             date: new Date(Date.now()).toISOString()
         }
         console.log(updatedRecipe);
@@ -37,8 +37,8 @@ const EditRecipeForm = ({ recipe }) => {
                         initialValues={{
                             title: recipe.title,
                             catagory: recipe.catagory,
-                            ingredients: recipe.ingredients,
-                            actions: recipe.actions
+                            ingredients: recipe.ingredients.join(","),
+                            actions: recipe.actions.join(", ")
                         }}
                         onSubmit={handleSubmit}
                     >
